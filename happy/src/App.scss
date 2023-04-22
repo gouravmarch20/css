@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+// $font-sans : 'Tajawal',
+// sans-serif;
+// $color-primary: #1f5dda;
+// $color-primary-50: #dbe3f1;
+// ;
+// $color-danger: rgb(248, 9, 9);
+// $color-light: rgb(255, 255, 255);
+// $color-grey: #888888;
+// $color-grey-50: #e9e0e0;
+// $color-success: rgb(7, 116, 7);
+
+
+// :root {
+//   --color-primary: #1f5dda;
+//   --color-primary-50: #dbe3f1;
+//   --color-danger: rgb(248, 9, 9);
+//   --color-light: rgb(255, 255, 255);
+//   --color-grey: #888888;
+//   --color-grey-50: #e9e0e0;
+//   --color-success: rgb(7, 116, 7);
+//   --sans: Tajawal, sans-serif;
+// }
+
+body {
+  font-style: var(--sans);
+}
+
+.centered {
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.distributed {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.bottom-shadow {
+  -webkit-box-shadow: 0px 10px 10px -12px rgba(158, 145, 145, 0.75);
+  -moz-box-shadow: 0px 10px 10px -12px rgba(158, 145, 145, 0.75);
+  box-shadow: 0px 10px 10px -12px rgba(158, 145, 145, 0.75);
+}
+
+.decor-none {
+  list-style: none;
+}
+
+.self-justified {
+  align-self: start;
+}
+
+.bg-primary {
+  background-color: var(--color-primary) !important;
+}

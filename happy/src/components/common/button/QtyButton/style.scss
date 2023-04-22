@@ -1,0 +1,26 @@
+.product-qty-handler {
+   margin: 1rem 0;
+}
+
+.qty-btn {
+   height: 2.5rem;
+   font-weight: 600;
+   color: white;
+   background-color: rgb(88, 86, 86);
+   font-size: 1.3rem;
+   border: none;
+}
+.qty-btn-plus {
+   padding: 0 0.7rem;
+   border-top-right-radius: 8px;
+   border-bottom-right-radius: 8px;
+}
+.qty-btn-minus {
+   padding: 0 0.8rem;
+   border-top-left-radius: 8px;
+   border-bottom-left-radius: 8px;
+}
+.qty-input{
+   padding: .72rem 0rem;
+
+}
